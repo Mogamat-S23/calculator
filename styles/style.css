@@ -45,13 +45,14 @@ html {
     font-weight: 700;  
     font-size: 60px;  
     line-height: 60px;  
-    margin: 0 25px;  
+    margin: 20 25px;  
     }  
   .calculator {  
     background-color: #c0c0c0;  
     box-shadow: 0px 0px 0px 10px #666;  
     border: 5px solid black;  
-    border-radius: 10px;  
+    border-radius: 10px;
+      
   }  
 
   #display {  
