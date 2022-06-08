@@ -15,36 +15,38 @@
 <table border="2" align="center" cellpadding="15" cellspacing="12" bgcolor="#c0c0c0">  
 <tr>  
 <td>  
-<input type="text" name="Input" Size="35" id="display">  
+<input type="text" name="Input" Size="35" id="result">  
 <br>  
 </td>  
 </tr>  
 <tr>  
 <td>  
-<input type="button" name = "one" style="font-size:30px" value=" 1 " >  
-<input type="button" name = "two" style = "font-size:30px" value=" 2 " >  
-<input type="button" name = "three" style="font-size:30px" value=" 3 " >  
-<input type="button" name="add" class ="btnTop" style="font-size:30px" value=" + ">  
+<input type="button" name = "one" style="font-size:30px" value=" 1 "  onclick=" display('1')">  
+<input type="button" name = "two" style = "font-size:30px" value=" 2 "  onclick="display('2')">  
+<input type="button" name = "three" style="font-size:30px" value=" 3 " onclick="display('3')" >  
+<input type="button" name="add" class ="btnTop" style="font-size:30px" value=" + " onclick="display('+')">  
 <br>  
-<input type="button" name = "four" style="font-size:30px" value=" 4 " >  
-<input type="button" name = "five" style="font-size:30px" value=" 5 " >  
-<input type="button" name = "six" style="font-size:30px" value=" 6 " >  
-<input type="button" name = "minus" style="font-size:30px" value=" - " >  
+<input type="button" name = "four" style="font-size:30px" value=" 4 " onclick="display('4')" >  
+<input type="button" name = "five" style="font-size:30px" value=" 5 " onclick="display('5')">  
+<input type="button" name = "six" style="font-size:30px" value=" 6 " onclick="display('6')">  
+<input type="button" name = "minus" style="font-size:30px" value=" - " onclick="dispaly('+')">  
 <br>  
-<input type="button" name = "seven" style="font-size:30px" value=" 7 " >  
-<input type="button" name = "eight" style="font-size:30px" value=" 8 " >  
-<input type="button" name = "nine" style="font-size:30px" value=" 9 " >  
-<input type="button" name = "mul" style="font-size:30px" value=" * " >  
+<input type="button" name = "seven" style="font-size:30px" value=" 7 " onclick="display('7')">  
+<input type="button" name = "eight" style="font-size:30px" value=" 8 " onclick="display('8')">  
+<input type="button" name = "nine" style="font-size:30px" value=" 9 " onclick="display('9')">  
+<input type="button" name = "mul" style="font-size:30px" value=" * " onclick="display('*')">  
 <br>  
-<input type="button" name = "clear" style="font-size:30px" value=" c " >  
-<input type="button" name="zero" style="font-size:30px" value=" 0 " >  
-<input type="button" name="DoIt" style="font-size:30px" value=" = ">  
-<input type="button" name="div" style="font-size:30px" value=" / " >  
+<input type="button" name = "clear" style="font-size:30px" value=" c " onclick="clearscreen()">  
+<input type="button" name="zero" style="font-size:30px" value=" 0 " onclick="display('0')">  
+<input type="button" name="DoIt" style="font-size:30px" value=" = "onclick="calculate()">  
+<input type="button" name="div" style="font-size:30px" value=" / " onclick="display('/')">  
 <br>  
 </td>  
   
 </tr>  
 </table>  
 </form>  
+
+<script src="./script/code.js"></script>
 </body>
 </html>
